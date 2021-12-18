@@ -1,6 +1,6 @@
 # undistortion-editor
 Creating a customized UI program that can help us deal with removal of image/video/webcam distortion, and product better result for computer vision
-![Uploading sample2.png…]()
+
 
 Recently as we start to deal with more computer vision works, I start to explore how do we do camera calibration using opencv.
 There are a few methods:
@@ -14,7 +14,15 @@ However, the above solution requires tedious setup by user, and requires program
 I hope to provide an option for end user to easily calibrate camera by viewing the final result and adjust it.
 So I choose to use opencv trackbar as the UI to pass the camera profile data to the result.
 
+I also take reference from the following database to check some result
+https://argus.web.unc.edu/camera-calibration-database/
+http://mesh.brown.edu/3DP-2018/calibration.html
+
+
 The program shows a good example in dealing with a series of samples.
+![Uploading sample2.png…]()
+
+some challenges:
 As opencv trackbar doesn't allow floats value, I have to convert the trackbar input into float value lens profile. which will have some limitation in accuracy.
 
 If you are looking for camera calibration that can be managed by end user, this could be a solution.
