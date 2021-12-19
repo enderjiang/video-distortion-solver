@@ -17,10 +17,10 @@ So I choose to use opencv trackbar as the UI to pass the camera profile data to 
 I also take reference from the following database to check some result
 https://argus.web.unc.edu/camera-calibration-database/
 http://mesh.brown.edu/3DP-2018/calibration.html
+![sample2](https://user-images.githubusercontent.com/65903200/146658904-444136fa-fd4b-4321-9263-741b2f85192a.png)
 
 
 The program shows a good example in dealing with a series of samples.
-![Uploading sample2.png…]()
 
 some challenges:
 As opencv trackbar doesn't allow floats value, I have to convert the trackbar input into float value lens profile. which will have some limitation in accuracy.
