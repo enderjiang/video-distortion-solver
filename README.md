@@ -1,4 +1,4 @@
-# undistortion-editor
+# Video Distortion Solver
 Creating a customized UI program that can help us deal with removal of image/video/webcam distortion, and product better result for computer vision
 
 
